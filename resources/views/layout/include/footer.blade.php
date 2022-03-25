@@ -1,16 +1,6 @@
 <footer class="page-footer">
     <div class="uk-container uk-container-large">
-        <div class="page-footer-top">
-            <div class="logo"><a class="logo__link" href=""><img class="logo__img" src="{{asset(\App\Models\SiteControl::first()->logo) }}" alt="logo"></a></div>
-            <div class="subscription-block">
-                <div class="subscription-block__title">
 
-                </div>
-                <div class="subscription-block__form">
-
-                </div>
-            </div>
-        </div>
         <div class="page-footer-middle">
             <div class="uk-grid uk-child-width-1-4@l uk-child-width-1-2@s" data-uk-grid>
                 <div class="uk-flex-first@l">

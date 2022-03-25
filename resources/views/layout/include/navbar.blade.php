@@ -48,14 +48,17 @@
     </div>
     <div class="page-header-bottom" data-uk-sticky>
         <div class="page-header-bottom__left">
-            <div class="logo"><a class="logo__link" href="{{url('/')}}"> <img class="logo__img" src="{{ asset(\App\Models\SiteControl::first()->logo)}}" alt=""></a></div>
-            <div class="support"> <a class="support__link" href="tel:236-799-5500">
-                    <div class="support__icon"><i class="fas fa-headset"></i></div>
+            <div class="logo support "><a class="logo__link" href="{{url('/')}}">
+                    <img style="height: 88px;width:1000px;padding: 10px;" class="logo__img" src="{{ asset(\App\Models\SiteControl::first()->logo)}}" alt=""></a></div>
+{{--           <div class="support">--}}
+ {{-- <a class="support__link" href="tel:236-799-5500">--}}
+{{--                    <div class="support__icon"><i class="fas fa-headset"></i></div>--}}
 {{--                    <div class="support__desc">--}}
 {{--                        <div class="support__label"> {{translateview('Get Quick Support')}}</div>--}}
 {{--                        <div class="support__phone">{{\App\Models\SiteControl::first()->phone}}</div>--}}
-{{--                    </div>--}}
-                </a></div>
+{{--                    </div>   </a> --}}
+
+{{--        </div>--}}
         </div>
         <div class="page-header-bottom__right">
             <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
