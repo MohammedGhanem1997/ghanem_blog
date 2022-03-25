@@ -25,7 +25,6 @@
                             <div class="list-articles-item__img "><img src="{{empty($topseen->image)? asset('images/defult/article.jpg') :asset($topseen->image)}}" alt="article-thumb"></div>
                             <div class="list-articles-item__info m-3">
                                 <div class="list-articles-item__title">{{translation($topseen->title)}}</div>
-                                <div class="list-articles-item__date">{{ empty($topseen->short_description)? '': translation($topseen->short_description)}}</div>
                             </div>
                         </a></li>
                 @endforeach

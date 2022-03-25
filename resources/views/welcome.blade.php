@@ -63,7 +63,7 @@
                                             <div class="blog-item__info">
                                                 <div class="blog-item__date">{{$artical->created_at->diffForHumans()}}</div>
                                                 <div class="blog-item__author">{{translate('by')}}  <a href="#!">-</a></div>
-                                                <div class="article-intro__comments"><a href="#" data-uk-scroll="offset: 120">{{translateview('Comment')}} {{$article->comments_count}}  </a></div>
+                                                <div class="article-intro__comments"><a href="#" data-uk-scroll="offset: 120">{{translateview('Comment')}} {{$artical->comments_count}}  </a></div>
 
                                             </div>
                                             <div class="blog-item__title">{{translation($artical->title) }}</div>
@@ -84,7 +84,7 @@
                                             <div class="blog-item__info">
                                                 <div class="blog-item__date">{{$artical->created_at->diffForHumans()}}</div>
                                                 <div class="blog-item__author">{{translate('by')}}  <a href="#!">-</a></div>
-                                                <div class="article-intro__comments"><a href="#" data-uk-scroll="offset: 120">{{translateview('Comment')}} {{$article->comments_count}}  </a></div>
+                                                <div class="article-intro__comments"><a href="#" data-uk-scroll="offset: 120">{{translateview('Comment')}} {{$artical->comments_count}}  </a></div>
 
                                             </div>
                                             <div class="blog-item__title">{{translation($artical->title) }}</div>

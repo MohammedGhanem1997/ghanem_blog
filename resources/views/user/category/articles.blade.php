@@ -3,12 +3,12 @@
 @section('contain')
 
     @push('seo')
-        @include('layout.include.seo.category')
+        @include('layout.include.SEO.category')
     @endpush
 
 
     <div class="page-head">
-        <div class="page-head__bg" style="background-image: url({{empty($products[0]->sub_category->image)? asset('images/defult/productspage.jpg') :asset($products[0]->sub_category->image)}})">
+        <div class="page-head__bg" style="background-image: url({{empty($category->image)? asset('images/defult/productspage.jpg') :asset($category->image)}})">
             <div class="page-head__content" data-uk-parallax="y: 0, 100">
                 <div class="uk-container uk-container-xlarge">
                     <h1 class="uk-margin-remove-top page-head__title"> {{translateview('category')}} {{ translation($category->name)  }}</h1>

@@ -234,10 +234,8 @@ Route::group(['prefix'=>'groups' ,'as'=>'groups.'] ,function() {
 
 }) ;
 Route::group(['prefix'=>'footer' ,'as'=>'footer.'] ,function() {
-
     Route::get('/about_site', [FooterController::class,'about_site'])->name('about-site');
     Route::post('/about_site-post', [FooterController::class,'store'])->name('about-site-post');
-
 }) ;
 Route::group(['prefix'=>'translate' ,'as'=>'translate.'] ,function() {
 

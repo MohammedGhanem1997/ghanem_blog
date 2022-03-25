@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="{!! translation($category->containt)  !!}" name="description">
+<meta content="{!! translation($category->short_description)  !!}" name="description">
 <meta content="{{\App\Models\SiteControl::first()->site_name['ar']}} {{\App\Models\SiteControl::first()->site_name['en']}}" name="author">
 
 <!-- Favicon -->

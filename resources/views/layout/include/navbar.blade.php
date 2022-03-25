@@ -67,8 +67,22 @@
                         <li class="uk-active"><a href="{{url('/')}}">{{translate('Home')}}</a></li>
                         @foreach(\App\Models\MainCategory::where('status',1)->get() as $category)
 
+                            @if($loop->index >5)
                             <li><a href="{{route('category',$category->slug)}}"> {{translation($category->name)}}</a>
+                                @else
+                                @if($loop->index ==5)
+                                <li><a href="#">{{translate('more')}}<i class="fas fa-angle-down"></i></a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            @endif
+                                            <li><a href="{{route('category',$category->slug)}}"> {{translation($category->name)}}</a>
 
+                                            @if($loop->index ==5)
+                                        </ul>
+                                    </div>
+                                    @endif
+                                </li>
+                                @endif
                                 @endforeach
 
 
