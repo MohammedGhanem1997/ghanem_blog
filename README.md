@@ -9,8 +9,10 @@
 <ol>
 	<li>after download the project</li>
 	<li>import blog.sql file to your DB Management&nbsp; . &quot;data base file in the project called blog.sql&quot;</li>
-	<li>change your env</li>
+	<li>change your env or add it becouse github remove it </li>
 	<li>run project by php artisan ser</li>
+    	<li> <b> if make errror may be becouse your php version change php version from composer.json and write command composer update</b> </li>
+
     	<li>localhost:8000/login to login the admin panel  email: admin@admin.com password: 12345678 < /li>
 
 </ol>
