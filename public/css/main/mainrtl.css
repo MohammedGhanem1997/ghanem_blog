@@ -1,0 +1,51 @@
+
+.rental-item__specifications ul li::before {
+    left: 9px !important;
+    width: 5px;
+    color: #edb509;
+}
+
+.rental-item__links a + a {
+    margin-right: 13px !important;
+    padding-right: 13px !important;
+    border-right: 1px solid #fff !important;
+}
+
+.article-full__title, .article-intro__title {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: right !important ;
+}
+
+.list-articles-item__info {
+    display: block;
+    padding-right: 20px  !important;
+}
+.contacts-list-item__desc {
+    padding-right: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.44;
+}
+
+[class*="uk-list"] > ::before {
+    content: "";
+    position: relative;
+    right: -30px;
+    width: 30px;
+    height: 1.5em;
+    margin-bottom: -1.5em;
+    display: list-item;
+    list-style-position: inside;
+    text-align: right;
+}
+.blog-item__author {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #dddddd;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,42 @@
+.contain {
+    max-height: 400px;
+    overflow-y: scroll;
+
+
+}
+.section {
+    text-align: center;
+    padding: 10px 0; !important;
+}
+.section input[type="radio"] {
+    display: none;
+}
+.section label {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5em;
+    line-height: 2em;
+    height: 2em;
+    box-shadow: 1px 1px 1px 0 #ccc;
+}
+.section label:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+.section p {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    line-height: 10px;
+    font-size: 1em;
+    transition: max-height 0.3s linear;
+}
+.section input[type="radio"]:checked ~ p {
+    max-height: fit-content;
+
+}
+.section input[type="radio"]:checked ~ label {
+    box-shadow: none;
+    background-color: #ccc;
+    color: #fff;
+}
