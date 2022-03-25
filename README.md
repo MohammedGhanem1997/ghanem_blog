@@ -11,6 +11,8 @@
 	<li>import blog.sql file to your DB Management&nbsp; . &quot;data base file in the project called blog.sql&quot;</li>
 	<li>change your env</li>
 	<li>run project by php artisan ser</li>
+    	<li>localhost:8000/login to login the admin panel  email: admin@admin.com password: 12345678 < /li>
+
 </ol>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>what&#39;s the ghanem blog </strong></p>
